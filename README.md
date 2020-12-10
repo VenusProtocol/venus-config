@@ -1,7 +1,7 @@
 
 # Venus Config
 
-This repository contains all configuration for the Venus Protocol on Ethereum. Projects wishing to interact with Venus contracts will be able to find contract addresses, ABIs and interfaces for the core Venus contracts in this repo.
+This repository contains all configuration for the Venus Protocol on Binance Smart Chain. Projects wishing to interact with Venus contracts will be able to find contract addresses, ABIs and interfaces for the core Venus contracts in this repo.
 
 ## Getting Started
 
