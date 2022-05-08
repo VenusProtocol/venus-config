@@ -180,7 +180,7 @@
       "UST": {
         "name": "Binance-Peg UST Token",
         "symbol": "UST",
-        "decimals": 18,
+        "decimals": 6,
         "address": "0x3d4350cd54aef9f9b2c29435e0fa809957b3f30a",
         "contract": "BEP20UST"
       },
