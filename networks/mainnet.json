@@ -17,6 +17,7 @@
       "ETH": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
       "LTC": "0x4338665CBB7B2485A8855A139b75D5e34AB0DB94",
       "XRP": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
+      "UST": "0x3d4350cd54aef9f9b2c29435e0fa809957b3f30a",
       "vUSDC": "0xecA88125a5ADbe82614ffC12D0DB554E2e2867C8",
       "vUSDT": "0xfD5840Cd36d94D7229439859C0112a4185BC0255",
       "vBUSD": "0x95c78222B3D6e262426483D42CfA53685A67Ab9D",
@@ -27,6 +28,7 @@
       "vETH": "0xf508fCD89b8bd15579dc79A6827cB4686A3592c8",
       "vLTC": "0x57A5297F2cB2c0AaC9D554660acd6D385Ab50c6B",
       "vXRP": "0xB248a295732e0225acd3337607cc01068e3b9c10",
+      "vUST": "0x78366446547D062f45b4C0f320cDaa6d710D87bb",
       "Timelock": "0x939bD8d64c0A9583A7Dcea9933f7b21697ab6396",
       "GovernorAlpha": "0x406f48f47D25E9caa29f17e7Cfbd1dc6878F078f",
       "VenusPriceOracle": "0x516c18DC440f107f12619a6d2cc320622807d0eE"
@@ -49,6 +51,7 @@
       "ETH": 326031,
       "LTC": 326301,
       "XRP": 326495,
+      "UST": 11753674,
       "vUSDC": 2472670,
       "vUSDT": 2472804,
       "vBUSD": 2472859,
@@ -59,6 +62,7 @@
       "vETH": 2795451,
       "vLTC": 2795531,
       "vXRP": 2795586,
+      "vUST": 15924952,
       "Timelock": 2474251,
       "GovernorAlpha": 2474351,
       "VenusPriceOracle": 2471984
@@ -105,6 +109,7 @@
       "vETH": "0x",
       "vLTC": "0x",
       "vXRP": "0x",
+      "vUST": "0x",
       "Timelock": "0x0000000000000000000000002ce1d0ffd7e869d9df33e28552b12ddded3267060000000000000000000000000000000000000000000000000000000000000258",
       "GovernorAlpha": "0x000000000000000000000000ce10739590001705f7ff231611ba4a48b2820327000000000000000000000000b9e0e753630434d7863528cc73cb7ac638a7c8ff0000000000000000000000002ce1d0ffd7e869d9df33e28552b12ddded326706",
       "VenusPriceOracle": "0x000000000000000000000000da7a001b254cd22e46d3eab04d937489c93174c3",
@@ -171,6 +176,13 @@
         "decimals": 18,
         "address": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
         "contract": "BEP20XRP"
+      },
+      "UST": {
+        "name": "Binance-Peg UST Token",
+        "symbol": "UST",
+        "decimals": 18,
+        "address": "0x3d4350cd54aef9f9b2c29435e0fa809957b3f30a",
+        "contract": "BEP20UST"
       },
       "BNB": {
         "name": "BNB",
@@ -285,6 +297,16 @@
         "initial_exchange_rate_mantissa": "20000000000000000",
         "admin": "0x1ca3Ac3686071be692be7f1FBeCd668641476D7e",
         "underlying": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
+        "contract": "VBep20Immutable"
+      },
+      "vUST": {
+        "name": "Venus UST",
+        "symbol": "vUST",
+        "decimals": 8,
+        "address": "0x78366446547D062f45b4C0f320cDaa6d710D87bb",
+        "initial_exchange_rate_mantissa": "20000000000000000",
+        "admin": "0x1ca3Ac3686071be692be7f1FBeCd668641476D7e",
+        "underlying": "0x3d4350cd54aef9f9b2c29435e0fa809957b3f30a",
         "contract": "VBep20Immutable"
       }
     },
