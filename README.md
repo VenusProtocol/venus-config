@@ -1,6 +1,8 @@
 
 # Venus Config
 
+> :warning: **Not Maintained**: This repo has been archived for historical purposes and is not maintained. You can find the addresses of the deployed contracts in the respective smart contract package (`{package}/deployments/{network}.json` or `{package}/networks/{network}.json`).
+
 This repository contains all configuration for the Venus Protocol on Binance Smart Chain. Projects wishing to interact with Venus contracts will be able to find contract addresses, ABIs and interfaces for the core Venus contracts in this repo.
 
 ## Getting Started
